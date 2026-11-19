@@ -21,6 +21,7 @@ describe('OctoFit presentation contract', () => {
     vi.unstubAllGlobals();
   });
 
+  
   beforeEach(() => {
     vi.restoreAllMocks();
     vi.stubGlobal('fetch', vi.fn(async (input: RequestInfo | URL) => {
